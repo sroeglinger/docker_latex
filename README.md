@@ -1,21 +1,19 @@
 # docker_latex
 
-TBD
+If you want to use latex without installing latex on your computer ;)
 
 ## Requirements
-
-TBD
+* Docker
 
 ## Usage
 
 ### create_image.sh
-TBD
-
-### run_latex_docker
-TBD
+This script creates the Docker image sroeglinger/latex:ubuntu_18.04.
+This script has to be called once before the image can be used.
 
 ### run_latex_docker_latexmk
-TBD
+This scripts runs latexmk on the working directory.
+The working directory is mapped into the docker container.
 
 ## License
 
